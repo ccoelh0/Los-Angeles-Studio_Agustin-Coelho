@@ -1,0 +1,911 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.col-12{
+    padding: 0;
+}
+
+/*---TODAS LAS PAGINAS---*/
+
+body{
+    background-color: #19535c;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*---Header---*/
+
+#logo{ 
+    width: 104px;
+    height: 58px;
+    margin: 0px 10px;
+}
+
+.botonnav{
+    margin: 0px 15px;
+}
+
+.navpropio{
+    background-color: #ffffff;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+li{
+    padding-left: 10px;
+}
+
+/*-----Main-----*/
+
+.subrayadoH2{
+    width: 100px;
+    height: 4px;
+    background: #00000081;
+    margin: auto;
+    position: relative;
+    bottom: 35px;
+    margin-bottom: 25px;
+}
+
+.subrayadoH3{
+    width: 50px;
+    height: 4px;
+    background: #00000081;
+    margin: auto;
+    position: relative;
+    top: 2%;
+    margin-bottom: 20px;
+}
+
+.subrayadoNoindexh1{
+    width: 100px;
+    height: 4px;
+    background: #00000081;
+    margin: auto;
+    position: relative;
+    top: 10px;
+}
+
+h2{
+    font-size: 1.8rem;
+    text-align: center;
+    text-shadow: 5px 5px 10px #090C02;
+    padding: 50px 0px;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+
+em{
+    font-style: oblique;
+}
+
+.newsletter{
+    background-color:#090C02;
+    color: #ffffff;
+    grid-area: newsletter;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.newsletterPadding{
+    padding: 30px 10px;
+}
+
+.newsletter h4{
+    padding-bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: #19535c;
+    text-shadow: 1px 1px 2px #ffffff;
+    text-transform: uppercase;
+}
+
+.newsletter label {
+    font-size: 17px;
+    text-shadow: 1px 1px 2px #ffffff;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.enviar{
+    background-color: #19535c;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.enviar:hover{
+    background-color: #750d37;
+}
+
+.newsletter input{
+    width: 200px;
+    height: 25px;
+    text-align: center;
+}
+
+.inputPadding{
+    padding-bottom: 10px; 
+}
+
+/*--Footer---*/
+  
+.ubicacion{
+    background-color: #ffffff;
+    color: #090C02;
+}
+
+.ubicacion div{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.redesyubi h3{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.redesyubi p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.redesyubi img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px; 
+    margin: 0px 10px;
+}
+
+iframe{
+    width: 200px;
+    height: 150px;
+}
+
+/*---Index---*/
+
+.padrePortada{
+    background-image: url('../img/portada/portada10.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px; 
+    position: relative;
+}
+
+.titleImg{
+    position: absolute;
+    top: 43%;
+    right: 15%;
+    left: 15%;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px #090C02;
+}
+
+.tatostyle img{
+    width: 150px;
+}
+
+.tatostyle h3{
+    padding: 5px;
+    text-shadow: 5px 5px 10px #090C02
+}
+
+.tatostyle p{
+    font-size: 15px;
+    font-style:oblique;
+    padding: 0px 20px;
+}
+
+.trabajosLA div{
+    text-align: center;
+    /* padding: 0px;
+    margin: ; */
+}
+
+.trabajosLA img{
+    height: 80%;
+    width: 80%;
+    box-shadow: 0px 0px 26px 5px rgba(0,0,0,0.65);
+}
+
+/*---Nosotros---*/
+
+.nosotrosPortada{
+    background-image: url('../img/portada/portada3.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px; 
+    position: relative;
+}
+
+.titulo{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    left: 10%;
+    font-size: 2.5rem;
+    text-shadow: 5px 5px 10px #090C02;
+}
+
+.parrafoNosotros{
+    background-color: #1313138c;
+    position: absolute;
+    font-style: oblique;
+    padding: 10px;
+    border-radius: 10px;
+    top: 37%;
+    right: 10%;
+    left: 10%;
+    font-size: 14px;
+    text-shadow: 5px 5px 10px #090C02;
+}
+
+/*---Contacto---*/
+
+.contactoPortada{
+    background-image: url('../img/portada/portada5.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px; 
+    position: relative;
+}
+
+.tituloContacto{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    left: 10%;
+    font-size: 2.5rem;
+    text-shadow: 5px 5px 10px #090C02;
+}
+
+.parrafoContacto{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    left: 10%;
+    font-size: 20px;
+    text-shadow: 5px 5px 10px #090C02;
+    /* font-style: oblique; */
+}
+
+.form{
+    position: absolute;
+    top: 40%;
+    right: 2%;
+    left: 2%;
+}
+
+.form div{
+    margin: 15px;
+}
+
+.inputContacto{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px 8px rgba(0,0,0,0.34);
+}
+.mensajeContacto{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px 8px rgba(0,0,0,0.34);
+}
+
+.botones{
+    width: 100%;
+    height: 30px;
+    background-color: #19535c;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 8px rgba(0,0,0,0.34);
+}
+
+/*---Testimonios---*/
+
+.testimoniosPortada{
+    background-image: url('../img/portada/portada4.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px; 
+    position: relative;
+}
+
+.tituloTestimonios{
+    position: absolute;
+    top: 56%;
+    right: 10%;
+    left: 10%;
+    font-size: 35px;
+    text-shadow: 5px 5px 10px #090C02;
+}
+
+.paddingTestimonios{
+    padding-bottom: 30px;
+}
+
+.arreglosTestimonios{
+    /* margin-bottom: 20px; */
+    background-color: #11454db7;
+    width: 80%; 
+    height: auto;
+    box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.79);
+}
+
+.arreglosTestimonios h3{
+    text-shadow: 2px 2px 5px #090C02;
+    font-size: 25px;
+}
+
+.arreglosTestimonios p{
+    font-style: oblique;
+}
+
+/*---Tatuadores---*/
+
+.tatuadoresPortada{
+    background-image: url('../img/portada/portada14.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px; 
+    position: relative;
+}
+
+.tituloTatuadores{
+    position: absolute;
+    top: 52%;
+    right: 10%;
+    left: 10%;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px #090C02;
+}
+
+.paddingTatuadores{
+    padding-bottom: 30px;
+}
+
+.arreglosTatuadores{
+    /* margin-bottom: 20px; */
+    background-color: #11454db7;
+    width: 80%; 
+    height: auto;
+    box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.79);
+}
+
+.arreglosTatuadores h3{
+    text-shadow: 2px 2px 5px #090C02;
+    font-size: 25px;
+}
+
+.arreglosTatuadores p{
+    font-size: 20px;
+    text-shadow: 2px 2px 5px #090C02;
+    /* font-style: oblique; */
+}
+
+/*---------------TABLET-------------*/
+
+@media only screen and (min-width: 768px){
+
+    /*---MAIN---*/
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+    
+    .newsletterPadding{
+        padding: 50px;
+    }
+
+    .newsletter h4{
+        font-size: 20px;
+    }
+    
+    .newsletter label {
+        font-size: 25px;
+    }
+    
+    .enviar{
+        font-size: 20px;
+    }
+    
+    .newsletter input{
+        width: 600px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+
+    /*---INDEX---*/
+
+    .titleImg{
+        top: 45%;
+        right: 15%;
+        left: 15%;
+        font-size: 80px;
+    }
+
+    .tatostyle{
+        padding: 0px 20px;
+    }
+    
+    .tatostyle img{
+        width: 150px;
+    }
+    
+    .tatostyle h3{
+        padding: 5px;
+        text-shadow: 5px 5px 10px #090C02
+    }
+    
+    .tatostyle p{
+        font-size: 15px;
+        font-style:oblique;
+        padding: 0px 20px;
+    }
+    
+    .trabajosLAMargen{
+        margin: 10px;
+    }
+    
+    .trabajosLA div{
+        text-align: center;
+        /* padding: 0px;
+        margin: ; */
+    }
+    
+    .trabajosLA img{
+        height: 80%;
+        width: 80%;
+        box-shadow: 0px 0px 26px 5px rgba(0,0,0,0.65);
+    }
+
+    /*---Nosotros---*/
+
+    .titulo{
+        top: 30%;
+        right: 10%;
+        left: 10%;
+        font-size: 70px;
+    }
+    
+    .parrafoNosotros{
+        padding: 25px;
+        border-radius: 10px;
+        top: 43%;
+        right: 10%;
+        left: 10%;
+        font-size: 26px;
+    }
+
+    /*---Contacto---*/
+
+    .tituloContacto{
+        top: 23%;
+        right: 10%;
+        left: 10%;
+        font-size: 70px;
+    }
+
+    .parrafoContacto{
+        top: 31%;
+        right: 10%;
+        left: 10%;
+        font-size: 30px;
+        /* font-style: oblique; */
+    }
+
+    .form{
+        top: 45%;
+        right: 5%;
+        left: 5%;
+    }
+
+    .form div{
+        margin: 15px;
+    }
+
+    .inputContacto{
+        width: 85%;
+        height: 45px;
+    }
+
+    .mensajeContacto{
+        width: 85%;
+        height: 150px;
+    }
+
+    .botones{
+        width: 85%;
+        height: 45px;
+        background-color: #19535c;
+        color: #ffffff;
+    }
+
+    /*---Testimonios---*/
+
+    .tituloTestimonios{
+        position: absolute;
+        top: 54%;
+        right: 10%;
+        left: 10%;
+        font-size: 60px;
+        text-shadow: 5px 5px 10px #090C02;
+    }
+
+    .marginTestimonios{
+        margin: 0px 30px;
+    }
+
+    .paddingTestimonios{
+        padding-bottom: 30px;
+    }
+
+    .arreglosTestimonios{
+        /* margin-bottom: 20px; */
+        background-color: #11454db7;
+        width: 90%; 
+        height: auto;
+    }
+
+    .arreglosTestimonios h3{
+        text-shadow: 2px 2px 5px #090C02;
+        font-size: 30px;
+    }
+
+    .arreglosTestimonios p{
+        font-style: oblique;
+    }
+
+    /*---Tatuadores---*/
+
+    .tituloTatuadores{
+        position: absolute;
+        top: 49%;
+        right: 10%;
+        left: 10%;
+        font-size: 70px;
+        text-shadow: 5px 5px 10px #090C02;
+    }
+
+    .marginTatuadores{
+        margin: 0px 20px 20px 20px;
+    }
+
+    .paddingTatuadores{
+        padding-bottom: 60px;
+    }
+
+    .arreglosTatuadores{
+        /* margin-bottom: 20px; */
+        background-color: #11454db7;
+        width: 80%; 
+        height: auto;
+        box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.79);
+    }
+
+    .arreglosTatuadores h3{
+        text-shadow: 2px 2px 5px #090C02;
+        font-size: 25px;
+    }
+
+    .arreglosTatuadores p{
+        font-size: 20px;
+        text-shadow: 2px 2px 5px #090C02;
+        /* font-style: oblique; */
+    }
+    
+}
+
+/*---------------COMPU-------------*/
+
+@media only screen and (min-width: 1024px)
+{
+    /*---Header---*/
+
+    li {
+        margin: 0px 15px;  
+        transition: all 0.4s;
+    }
+
+    a{
+        font-size: 18px;
+        text-decoration: none;
+        transition: all 0.5s;
+    }
+
+    li:hover{
+        transform:translateX(-5px);
+    }
+
+    a:hover{
+        color: #750d37 !important;
+    }
+
+    /*-----------Main------------*/
+
+    .mainnoindex{
+        padding-top: 90px;
+        padding-bottom: 25px;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    .subrayadoH2{
+        width: 190px;
+        height: 6px;
+        margin: auto; 
+        position: relative;
+
+    }
+
+    .newsletterPadding{
+        padding: 100px;
+    }
+
+    .newsletter h4{
+        font-size: 25px;
+    }
+    
+    .newsletter label {
+        font-size: 30px;
+    }
+    
+    .enviar{
+        font-size: 20px;
+    }
+    
+    .newsletter input{
+        width: 600px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    /*------------Footer------------*/
+    
+    .redesyubi h3{
+        font-size: 25px;
+    }
+
+    .redesyubi p{
+        font-size: 15px;
+    }
+    
+    .redesyubi img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+    
+    .mapaNav h3{
+        font-size: 30px;
+    }
+
+    /*---INDEX---*/
+
+    .titleImg{
+        font-size: 90px;
+        top: 50%;
+        /* border: black 1px solid; */
+    }
+
+    .tatostyle{
+        margin: 10px 100px;
+    }
+
+    .tatostyle img{
+        transition: all 0.4s;
+    }
+
+    .tatostyle img:hover{
+        transform: scale(1.2);
+    }
+
+    .tatostyle h3{
+        font-size: 30px;
+    }
+
+    .tatostyle p{
+        font-size: 15px;
+        font-style: oblique;
+        padding: 0px 30px;
+    }
+
+    .trabajosLA{
+        margin: 0px 5px;
+        padding: 50px;
+    } 
+
+    .trabajosLA img{
+        height: 80%;
+        width: 80%;
+        box-shadow: 0px 0px 26px 5px rgba(0,0,0,0.65);
+        transition: all 0.4s;
+    }
+
+    .trabajosLA img:hover{
+        transform: scale(1.1);
+    }
+
+    /*---Nosotros---*/
+
+    .titulo{
+        top: 25%;
+        right: 10%;
+        left: 10%;
+        font-size: 90px;
+    }
+    
+    .parrafoNosotros{
+        padding: 25px;
+        border-radius: 10px;
+        top: 47%;
+        right: 10%;
+        left: 10%;
+        font-size: 25px;
+    }
+
+    /*---Contacto---*/
+
+    .tituloContacto{
+        top: 23%;
+        right: 10%;
+        left: 10%;
+        font-size: 75px;
+    }
+
+    .parrafoContacto{
+        top: 36%;
+        right: 10%;
+        left: 10%;
+        font-size: 33px;
+        /* font-style: oblique; */
+    }
+
+    .form{
+        top: 45%;
+        right: 5%;
+        left: 5%;
+    }
+
+    .form div{
+        margin: 15px;
+    }
+
+    .inputContacto{
+        width: 70%;
+        height: 45px;
+    }
+
+    .mensajeContacto{
+        width: 70%;
+        height: 100px;
+    }
+
+    .botones{
+        width: 70%;
+        height: 45px;
+        background-color: #19535c;
+        color: #ffffff;
+        transition: 0.2s;
+    }
+
+    .botones:hover{
+        background-color: #750d37;
+    }
+
+    /*---Testimonios---*/
+
+    .tituloTestimonios{
+        position: absolute;
+        top: 54%;
+        right: 10%;
+        left: 10%;
+        font-size: 70px;
+        text-shadow: 5px 5px 10px #090C02;
+    }
+
+    .marginTestimonios{
+        margin: 50px;
+    }
+
+    .paddingTestimonios{
+        padding: 0px 20px 50px 20px;
+    }
+
+    .arreglosTestimonios{
+        /* margin-bottom: 20px; */
+        background-color: #11454db7;
+        width: 90%; 
+        height: auto;
+    }
+
+    .arreglosTestimonios h3{
+        text-shadow: 2px 2px 5px #090C02;
+        font-size: 35px;
+    }
+
+    .arreglosTestimonios p{
+        font-style: oblique;
+        font-size: 16px;
+    }
+
+    /*---Tatuadores---*/
+
+    .tituloTatuadores{
+        position: absolute;
+        top: 49%;
+        right: 10%;
+        left: 10%;
+        font-size: 90px;
+        text-shadow: 5px 5px 10px #090C02;
+    }
+
+    .marginTatuadores{
+        margin: 50px;
+    }
+
+    .paddingTatuadores{
+        padding: 0px 20px 50px 20px;
+    }
+
+    .arreglosTatuadores{
+        /* margin-bottom: 20px; */
+        background-color: #11454db7;
+        width: 80%; 
+        height: auto;
+        box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.79);
+    }
+
+    .arreglosTatuadores h3{
+        text-shadow: 2px 2px 5px #090C02;
+        font-size: 25px;
+    }
+
+    .arreglosTatuadores p{
+        font-size: 18px;
+        text-shadow: 2px 2px 5px #090C02;
+        /* font-style: oblique; */
+    }
+
+    .arreglosTatuadores img{
+        filter:grayscale(100%);
+        transition: filter 0.1s;
+    }
+
+    .arreglosTatuadores img:hover{
+        filter: grayscale(0%);
+    }
+
+}
