@@ -98,7 +98,7 @@ em{
 
 .newsletter h4{
     padding-bottom: 10px;
-    font-size: 12px;
+    font-size: 20px;
     text-align: center;
     color: #19535c;
     text-shadow: 1px 1px 2px #ffffff;
@@ -106,7 +106,7 @@ em{
 }
 
 .newsletter label {
-    font-size: 17px;
+    font-size: 20px;
     text-shadow: 1px 1px 2px #ffffff;
     text-align: center;
     font-style: italic;
@@ -124,9 +124,10 @@ em{
 }
 
 .newsletter input{
-    width: 200px;
-    height: 25px;
+    width: 90%;
+    height: 40px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .inputPadding{
@@ -154,6 +155,15 @@ em{
 .redesyubi p{
     font-size: 15px;
     padding-top: 20px;
+}
+
+#mailFooter{
+    margin: 5px;
+}
+
+.redesyubi a{
+    font-style: italic;
+    text-decoration: none;
 }
 
 .redesyubi img{
@@ -419,11 +429,11 @@ iframe{
     }
 
     .newsletter h4{
-        font-size: 20px;
+        font-size: 28px;
     }
     
     .newsletter label {
-        font-size: 25px;
+        font-size: 28px;
     }
     
     .enviar{
@@ -435,7 +445,6 @@ iframe{
         height: 40px;
         font-size: 20px;
     }
-
 
     /*---INDEX---*/
 
@@ -671,7 +680,7 @@ iframe{
     }
 
     .newsletter h4{
-        font-size: 25px;
+        font-size: 28px;
     }
     
     .newsletter label {
@@ -695,7 +704,16 @@ iframe{
     }
 
     .redesyubi p{
-        font-size: 15px;
+        font-size: 17px;
+    }
+
+    #mailFooter{
+        margin: 5px;
+    }
+
+    .redesyubi a{
+        font-style: italic;
+        font-weight: 500;
     }
     
     .redesyubi img{
@@ -707,9 +725,32 @@ iframe{
         width: 300px;
         height: 200px;
     }
+
+    .mapaMargin{
+        margin: 20px 10px;
+    }
+
+    #mapaNav{
+        background-color:#19535c;
+        padding: 0;
+        margin: 0;
+    }
     
-    .mapaNav h3{
-        font-size: 30px;
+    #mapaNav h3{
+        font-size: 35px;
+        text-shadow: 2px 2px 5px #090C02;
+        padding-bottom: 5px;
+    }
+    
+    #mapaNav h4{
+        font-size: 25px;
+        text-shadow: 2px 2px 5px #090C02;
+    }
+
+    #mapaNav a{
+        color: #868686;
+        font-weight: 600;
+        text-shadow: 1px 1px 2px #090C02;
     }
 
     /*---INDEX---*/
