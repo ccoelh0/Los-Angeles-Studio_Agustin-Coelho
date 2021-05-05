@@ -60,7 +60,15 @@ li{
     margin-bottom: 20px;
 }
 
-
+.subrayadoMapa{
+    width: 190px;
+    height: 6px;
+    background: #00000081;
+    margin: auto;
+    position: relative;
+    top: 2%;
+    margin-bottom: 20px;
+}
 
 .subrayadoNoindexh1{
     width: 100px;
@@ -165,6 +173,7 @@ em{
 
 .redesyubi a{
     font-style: italic;
+    font-weight: 600;
     text-decoration: none;
 }
 
