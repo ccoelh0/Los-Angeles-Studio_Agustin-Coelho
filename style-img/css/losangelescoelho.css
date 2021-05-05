@@ -60,6 +60,16 @@ li{
     margin-bottom: 20px;
 }
 
+.subrayadoMapa{
+    width: 50px;
+    height: 4px;
+    background: #00000081;
+    margin: auto;
+    position: relative;
+    top: 2%;
+    margin-bottom: 20px;
+}
+
 .subrayadoNoindexh1{
     width: 100px;
     height: 4px;
