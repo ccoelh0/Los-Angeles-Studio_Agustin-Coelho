@@ -1,0 +1,666 @@
+/*Estructura*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.col-12{
+    padding: 0;
+}
+
+/*---TODAS LAS PAGINAS---*/
+
+#logo{ 
+    width: 104px;
+    height: 58px;
+    margin: 0px 10px;
+}
+
+.menu__nav{
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+.menu__nav--margenBoton{
+    margin: 0px 15px;
+}
+
+li{
+    padding-left: 10px;
+}
+
+.subrayadoH1 /*este CAMBIAR es noindex*/{
+    width: 100px;
+    height: 4px;
+    margin: auto;
+    position: relative;
+    top: 10px;
+}
+
+.subrayadoH2{
+    width: 100px;
+    height: 4px;
+    margin: auto;
+    position: relative;
+    bottom: 35px;
+    margin-bottom: 25px;
+}
+
+.subrayadoH3{
+    width: 50px;
+    height: 4px;
+    margin: auto;
+    position: relative;
+    top: 2%;
+    margin-bottom: 20px;
+}
+
+.subrayadoMapa{
+    width: 190px;
+    height: 6px;
+    margin: auto;
+    position: relative;
+    top: 2%;
+    margin-bottom: 20px;
+}
+
+h2{
+    padding: 50px 0px;
+}
+
+.newsletter{
+    grid-area: newsletter;
+    box-sizing: content-box;
+}
+
+.newsletter--padding{
+    padding: 30px 10px;
+}
+
+.newslette__h4{
+    padding-bottom: 10px;
+}
+
+.newslette__label {
+    padding-bottom: 20px;
+}
+
+.newsletter__input{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.newsletter__input--padding{
+    padding-bottom: 10px; 
+}
+
+/*--Footer---*/
+  
+.ubicacion__div{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.redes__h3{
+    padding: 20px 0px;
+}
+
+.redes__p{
+    padding-top: 20px;
+}
+
+#mailFooter{
+    margin: 5px;
+}
+
+.redes__img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px; 
+    margin: 0px 10px;
+}
+
+iframe{
+    width: 80%;
+    height: 150px;
+}
+
+/*---Index---*/
+
+.padrePortada{
+    background-image: url('../img/portada/portada10.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px; 
+    position: relative;
+}
+
+.titleImg{
+    position: absolute;
+    top: 43%;
+    right: 15%;
+    left: 15%;
+}
+
+.tatostyle img{
+    width: 150px;
+}
+
+.tatostyle h3{
+    padding: 5px;
+}
+
+.tatostyle p{
+    padding: 0px 20px;
+}
+
+.trabajos__img{
+    height: 80%;
+    width: 80%;
+}
+
+/*---Nosotros---*/
+
+.nosotrosPortada{
+    background-image: url('../img/portada/portada3.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px; 
+    position: relative;
+}
+
+.titulo{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    left: 10%;
+}
+
+.parrafoNosotros{
+    position: absolute;
+    font-style: oblique;
+    padding: 10px;
+    border-radius: 10px;
+    top: 37%;
+    right: 10%;
+    left: 10%;
+}
+
+/*---Contacto---*/
+
+.contactoPortada{
+    background-image: url('../img/portada/portada5.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px; 
+    position: relative;
+}
+
+.tituloContacto{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    left: 10%;
+}
+
+.parrafoContacto{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    left: 10%;
+}
+
+.form{
+    position: absolute;
+    top: 40%;
+    right: 2%;
+    left: 2%;
+}
+
+.form div{
+    margin: 15px;
+}
+
+.inputContacto{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.mensajeContacto{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.botones{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+/*---Testimonios---*/
+
+.testimoniosPortada{
+    background-image: url('../img/portada/portada4.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px; 
+    position: relative;
+}
+
+.tituloTestimonios{
+    position: absolute;
+    top: 56%;
+    right: 10%;
+    left: 10%;
+}
+
+.paddingTestimonios{
+    padding-bottom: 30px;
+}
+
+.arreglosTestimonios{
+    width: 80%; 
+    height: auto;
+}
+
+/*---Tatuadores---*/
+
+.tatuadoresPortada{
+    background-image: url('../img/portada/portada14.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px; 
+    position: relative;
+}
+
+.tituloTatuadores{
+    position: absolute;
+    top: 52%;
+    right: 10%;
+    left: 10%;
+}
+
+.paddingTatuadores{
+    padding-bottom: 30px;
+}
+
+.arreglosTatuadores{
+    width: 80%; 
+    height: auto;
+}
+
+/*---------------TABLET-------------*/
+
+@media only screen and (min-width: 768px){
+
+    /*---MAIN---*/
+
+    .newsletter--padding{
+        padding: 50px;
+    }
+    
+    .newsletter__input{
+        width: 600px;
+        height: 40px;
+    }
+
+    /*---INDEX---*/
+
+    .titleImg{
+        top: 45%;
+        right: 15%;
+        left: 15%;
+    }
+
+    .tatostyle{
+        padding: 0px 20px;
+    }
+    
+    .tatostyle img{
+        width: 150px;
+    }
+    
+    .tatostyle h3{
+        padding: 5px;
+    }
+    
+    .tatostyle p{
+        padding: 0px 20px;
+    }
+    
+    .trabajos__div--margen{
+        margin: 10px;
+    }
+    
+    .trabajos__img{
+        height: 80%;
+        width: 80%;
+    }
+
+    /*---Nosotros---*/
+
+    .titulo{
+        top: 30%;
+        right: 10%;
+        left: 10%;
+    }
+    
+    .parrafoNosotros{
+        padding: 25px;
+        border-radius: 10px;
+        top: 43%;
+        right: 10%;
+        left: 10%;
+    }
+
+    /*---Contacto---*/
+
+    .tituloContacto{
+        top: 23%;
+        right: 10%;
+        left: 10%;
+    }
+
+    .parrafoContacto{
+        top: 31%;
+        right: 10%;
+        left: 10%;
+    }
+
+    .form{
+        top: 45%;
+        right: 5%;
+        left: 5%;
+    }
+
+    .form div{
+        margin: 15px;
+    }
+
+    .inputContacto{
+        width: 85%;
+        height: 45px;
+    }
+
+    .mensajeContacto{
+        width: 85%;
+        height: 150px;
+    }
+
+    .botones{
+        width: 85%;
+        height: 45px;
+    }
+
+    /*---Testimonios---*/
+
+    .tituloTestimonios{
+        position: absolute;
+        top: 54%;
+        right: 10%;
+        left: 10%;
+    }
+
+    .marginTestimonios{
+        margin: 0px 30px;
+    }
+
+    .paddingTestimonios{
+        padding-bottom: 30px;
+    }
+
+    .arreglosTestimonios{
+        width: 90%; 
+        height: auto;
+    }
+
+    /*---Tatuadores---*/
+
+    .tituloTatuadores{
+        position: absolute;
+        top: 49%;
+        right: 10%;
+        left: 10%;
+    }
+
+    .marginTatuadores{
+        margin: 0px 20px 20px 20px;
+    }
+
+    .paddingTatuadores{
+        padding-bottom: 60px;
+    }
+
+    .arreglosTatuadores{
+        width: 80%; 
+        height: auto;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px)
+{
+    /*---Header---*/
+
+    li {
+        transition: all 0.4s;
+    }
+
+    a{
+        font-size: 18px;
+        text-decoration: none;
+        transition: all 0.5s;
+    }
+
+    li:hover{
+        transform:translateX(-5px);
+    }
+
+    a:hover{
+        color: #750d37 !important;
+    }
+
+    /*---Main---*/
+
+    .mainnoindex{
+        padding-top: 90px;
+        padding-bottom: 25px;
+    }
+
+    .subrayadoH2{
+        width: 190px;
+        height: 6px;
+        margin: auto; 
+        position: relative;
+    }
+
+    .newsletter--padding{
+        padding: 100px;
+    }
+
+    .newsletter__input{
+        width: 600px;
+        height: 40px;
+    }
+
+    /*---Footer---*/
+
+    #mailFooter{
+        margin: 5px;
+    }
+   
+    .redes__img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    iframe{
+        width: 80%;
+        height: 200px;
+    }
+
+    .mapaMargin{
+        margin: 20px 10px;
+    }
+
+    #mapaNav{
+        padding: 0;
+        margin: 0;
+    }
+    
+    #mapaNav h3{
+        padding-bottom: 5px;
+    }
+
+    /*---INDEX---*/
+
+    .titleImg{
+        top: 50%;
+        /* border: black 1px solid; */
+    }
+
+    .tatostyle{
+        margin: 10px 100px;
+    }
+
+    .tatostyle img{
+        transition: all 0.4s;
+    }
+
+    .tatostyle img:hover{
+        transform: scale(1.2);
+    }
+
+    .tatostyle p{
+        padding: 0px 30px;
+    }
+
+    .trabajos{
+        margin: 0px 5px;
+        padding: 50px;
+    } 
+
+    .trabajos__img{
+        height: 80%;
+        width: 80%;
+        transition: all 0.4s;
+    }
+
+    .trabajos__img:hover{
+        transform: scale(1.1);
+    }
+    
+    /*---Nosotros---*/
+
+    .titulo{
+        top: 25%;
+        right: 10%;
+        left: 10%;
+    }
+    
+    .parrafoNosotros{
+        padding: 25px;
+        border-radius: 10px;
+        top: 47%;
+        right: 10%;
+        left: 10%;
+    }
+
+    /*---Contacto---*/
+
+    .tituloContacto{
+        top: 23%;
+        right: 10%;
+        left: 10%;
+    }
+
+    .parrafoContacto{
+        top: 36%;
+        right: 10%;
+        left: 10%;
+    }
+
+    .form{
+        top: 45%;
+        right: 5%;
+        left: 5%;
+    }
+
+    .form div{
+        margin: 15px;
+    }
+
+    .inputContacto{
+        width: 70%;
+        height: 45px;
+    }
+
+    .mensajeContacto{
+        width: 70%;
+        height: 100px;
+    }
+
+    .botones{
+        width: 70%;
+        height: 45px;
+    }
+
+    /*---Testimonios---*/
+
+    .tituloTestimonios{
+        position: absolute;
+        top: 54%;
+        right: 10%;
+        left: 10%;
+    }
+
+    .marginTestimonios{
+        margin: 50px;
+    }
+
+    .paddingTestimonios{
+        padding: 0px 20px 50px 20px;
+    }
+
+    .arreglosTestimonios{
+        width: 90%; 
+        height: auto;
+    }
+
+    /*---Tatuadores---*/
+
+    .tituloTatuadores{
+        position: absolute;
+        top: 49%;
+        right: 10%;
+        left: 10%;
+    }
+
+    .marginTatuadores{
+        margin: 50px;
+    }
+
+    .paddingTatuadores{
+        padding: 0px 20px 50px 20px;
+    }
+
+    .arreglosTatuadores{
+        width: 80%; 
+        height: auto;
+    }
+}

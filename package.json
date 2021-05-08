@@ -1,0 +1,30 @@
+{
+  "name": "los-angeles-studio",
+  "version": "1.0.0",
+  "description": "Pagina de Los Angeles Studio, casa de tatuajes ubicada en Berazategui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss style-img/scss/losangeles.scss style-img/css/losangeles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccoelh0/Los-Angeles-Studio.git"
+  },
+  "keywords": [
+    "Tattoo",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Agustin Coelho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccoelh0/Los-Angeles-Studio/issues"
+  },
+  "homepage": "https://github.com/ccoelh0/Los-Angeles-Studio#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
