@@ -380,8 +380,7 @@ iframe {
     padding-bottom: 5px; }
   /*---INDEX---*/
   .titleImg {
-    top: 50%;
-    /* border: black 1px solid; */ }
+    top: 50%; }
   .tatostyle {
     margin: 10px 100px; }
   .tatostyle img {
@@ -661,8 +660,7 @@ em {
   .tituloContacto {
     font-size: 70px; }
   .parrafoContacto {
-    font-size: 30px;
-    /* font-style: oblique; */ }
+    font-size: 30px; }
   .botones {
     background-color: #19535c;
     color: #ffffff; }
@@ -759,8 +757,7 @@ em {
   .tituloContacto {
     font-size: 75px; }
   .parrafoContacto {
-    font-size: 33px;
-    /* font-style: oblique; */ }
+    font-size: 33px; }
   .botones {
     background-color: #19535c;
     color: #ffffff;

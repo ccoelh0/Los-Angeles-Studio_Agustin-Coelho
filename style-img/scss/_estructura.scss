@@ -1,5 +1,10 @@
 /*Estructura*/
 
+@mixin sizes ($width, $height){
+    width: $width;
+    height: $height;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -12,8 +17,7 @@
 /*---TODAS LAS PAGINAS---*/
 
 #logo{ 
-    width: 104px;
-    height: 58px;
+    @include sizes(104px, 58px);
     margin: 0px 10px;
 }
 
@@ -31,17 +35,15 @@ li{
     padding-left: 10px;
 }
 
-.subrayadoH1 /*este CAMBIAR es noindex*/{
-    width: 100px;
-    height: 4px;
+.subrayadoH1{
+    @include sizes(100px, 4px);
     margin: auto;
     position: relative;
     top: 10px;
 }
 
 .subrayadoH2{
-    width: 100px;
-    height: 4px;
+    @include sizes(100px, 4px);
     margin: auto;
     position: relative;
     bottom: 35px;
@@ -49,8 +51,7 @@ li{
 }
 
 .subrayadoH3{
-    width: 50px;
-    height: 4px;
+    @include sizes(50px, 4px);
     margin: auto;
     position: relative;
     top: 2%;
@@ -58,8 +59,7 @@ li{
 }
 
 .subrayadoMapa{
-    width: 190px;
-    height: 6px;
+    @include sizes(190px, 6px);
     margin: auto;
     position: relative;
     top: 2%;
@@ -531,7 +531,6 @@ iframe{
 
     .titleImg{
         top: 50%;
-        /* border: black 1px solid; */
     }
 
     .tatostyle{
