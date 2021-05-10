@@ -52,7 +52,7 @@ li {
   margin: auto;
   position: relative;
   top: 2%;
-  margin-bottom: 35px; }
+  margin-bottom: 36px; }
 
 h2 {
   padding: 50px 0px; }
@@ -769,7 +769,7 @@ em {
     background-color: #750d37; }
   /*---Testimonios---*/
   .tituloTestimonios {
-    font-size: 70px;
+    font-size: 90px;
     text-shadow: 5px 5px 10px #090C02; }
   .arreglosTestimonios {
     background-color: #11454db7; }
