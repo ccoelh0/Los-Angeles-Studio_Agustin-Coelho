@@ -174,7 +174,7 @@ iframe {
 
 .parrafoContacto {
   position: absolute;
-  top: 32%;
+  top: 30%;
   right: 10%;
   left: 10%; }
 
@@ -578,7 +578,7 @@ em {
   text-shadow: 5px 5px 10px #090C02; }
 
 .parrafoContacto {
-  font-size: 18px;
+  font-size: 20px;
   text-shadow: 5px 5px 10px #090C02; }
 
 .inputContacto {
