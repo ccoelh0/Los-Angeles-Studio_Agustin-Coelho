@@ -62,7 +62,7 @@ em{
 .newsletter__h4{
     font-size: 20px;
     text-align: center;
-    color: $turquesa;
+    color: $blanco;
     text-shadow: 1px 1px 2px $blanco;
     text-transform: uppercase;
 }
@@ -71,8 +71,7 @@ em{
     font-size: 20px;
     text-shadow: 1px 1px 2px $blanco;
     text-align: center;
-    font-style: italic;
-
+    font-style: italic
 }
 
 .newsletter__botonEnviar{
@@ -92,8 +91,8 @@ em{
 /*--Footer---*/
   
 .ubicacion{
-    background-color: #ffffff;
-    color: #090C02;
+    background-color: $negro;
+    color: $blanco;
 }
 
 .ubicacion__div{
@@ -106,6 +105,7 @@ em{
 
 .redes__p{
     font-size: 15px;
+    text-shadow: 1px 1px 2px #ffffff;
 }
 
 .redes__a{
@@ -398,22 +398,25 @@ em{
 
     #mapaNav{
         background-color:$turquesa;
+        padding: 40px;
     }
     
     #mapaNav h3{
         font-size: 35px;
+        color: $blanco;
         text-shadow: 2px 2px 5px #090C02;
     }
     
     #mapaNav h4{
         font-size: 25px;
+        color: $blanco;
         text-shadow: 2px 2px 5px #090C02;
     }
 
     #mapaNav a{
-        color: #868686;
+        color: $blanco;
         font-weight: 600;
-        text-shadow: 1px 1px 2px #090C02;
+        text-shadow: 2px 2px 5px #090C02;
     }
 
     /*---INDEX---*/
