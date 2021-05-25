@@ -114,6 +114,9 @@ em{
     text-decoration: none;
 }
 
+.iframe{
+    background-color: #090C02;
+}
 
 /*---Index---*/
 
@@ -396,6 +399,10 @@ em{
         font-weight: 500;
     }
 
+    .iframe{
+        background-color: $turquesa;
+    }
+
     #mapaNav{
         background-color:$turquesa;
         padding: 40px;
@@ -416,7 +423,14 @@ em{
     #mapaNav a{
         color: $blanco;
         font-weight: 600;
+        transition: all 0.4s;
         text-shadow: 2px 2px 5px #090C02;
+    }
+
+    #mapaNav a:hover{
+        color: $blanco !important;
+        transform: scale(1.1);
+
     }
 
     /*---INDEX---*/

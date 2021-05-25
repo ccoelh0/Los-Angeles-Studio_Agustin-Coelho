@@ -99,8 +99,8 @@ h2 {
   margin: 0px 10px; }
 
 iframe {
-  width: 80%;
-  height: 150px; }
+  width: 100%;
+  height: 200px; }
 
 /*---Index---*/
 .padrePortada {
@@ -541,6 +541,9 @@ em {
   font-weight: 600;
   text-decoration: none; }
 
+.iframe {
+  background-color: #090C02; }
+
 /*---Index---*/
 .titleImg {
   font-size: 50px;
@@ -716,6 +719,8 @@ em {
   .redes__a {
     font-style: italic;
     font-weight: 500; }
+  .iframe {
+    background-color: #19535c; }
   #mapaNav {
     background-color: #19535c;
     padding: 40px; }
@@ -730,7 +735,11 @@ em {
   #mapaNav a {
     color: #ffffff;
     font-weight: 600;
+    transition: all 0.4s;
     text-shadow: 2px 2px 5px #090C02; }
+  #mapaNav a:hover {
+    color: #ffffff !important;
+    transform: scale(1.1); }
   /*---INDEX---*/
   .titleImg {
     font-size: 90px; }
